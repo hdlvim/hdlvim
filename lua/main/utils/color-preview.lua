@@ -80,4 +80,4 @@ local function colorPreview()
   colorPicker:find()
 end
 
-vim.api.nvim_create_user_command("mainColorPreview", colorPreview, {})
+vim.api.nvim_create_user_command("MainColorPreview", colorPreview, {})
